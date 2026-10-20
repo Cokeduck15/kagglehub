@@ -11,7 +11,7 @@ file_path = ""
 # Load the latest version
 df = kagglehub.load_dataset(
   KaggleDatasetAdapter.PANDAS,
-  "mczielinski/bitcoin-historical-data",
+  "ealaxi/paysim1",
   file_path,
   # Provide any additional arguments like 
   # sql_query or pandas_kwargs. See the 
